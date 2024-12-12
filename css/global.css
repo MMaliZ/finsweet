@@ -126,86 +126,170 @@ main {
 /* header end */
 
 /* footer start */
-.newsletter {
-  background-color: #5a5df4;
-  color: #fff;
-  text-align: center;
-  padding: 50px 20px;
-}
-
-.newsletter-title {
-  font-size: 24px;
-}
-
-.newsletter-input {
-  width: 300px;
-  padding: 10px;
-  margin-top: 20px;
-  border: none;
-  border-radius: 5px;
-}
-
-/* Footer Bo'limi */
-footer {
+/* Footer umumiy stil */
+.footer-container {
   background-color: #ffffff;
-  padding: 40px 20px;
+  padding: 50px 20px;
+  font-family: "Poppins", sans-serif;
+  color: #000;
 }
 
-.footer-content {
+/* Container */
+.container {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  gap: 40px;
 }
 
-.contact-section {
+/* Footer chap qismi */
+.footer-content {
   max-width: 300px;
 }
 
-.contact-title {
+.footer-title {
+  width: 100%;
+  max-width: 452px;
+  height: 116px;
+
+  color: #232536;
+  font-weight: 600;
+  line-height: 58px;
+  font-family: "Poppins", sans-serif;
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.footer-talk {
+  width: 100%;
+  max-width: 143px;
+  height: 36px;
+  color: #232536;
+  padding-top: 40px;
+  margin-top: 40px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
   font-size: 24px;
-}
-
-.talk {
-  font-weight: bold;
-}
-
-.phone,
-.email,
-.address {
-  margin: 5px 0;
-}
-
-/* Havolalar Bo'limi */
-.links-section {
+  line-height: 36px;
   display: flex;
-  justify-content: space-between;
-  width: 60%;
+  margin-bottom: 28px;
 }
 
-.footer-links h4 {
-  margin-bottom: 10px;
+.footer-contact a {
+  color: #000;
+  border-bottom: 1px solid #ccc;
+  text-decoration: none;
+  margin-top: 40px;
+  margin-bottom: 14px;
+  font-family: "Poppins", sans-serif;
 }
 
-.footer-links ul {
+/* Footer linklar qismi */
+.footer-links {
+  text-align: start;
+  display: flex;
+  gap: 61px;
+}
+
+.links-section h4 {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.links-section ul {
   list-style: none;
   padding: 0;
 }
 
-.footer-links li {
-  margin-bottom: 8px;
+.links-section li {
+  margin-bottom: 10px;
 }
 
-/* Footer Pastki Qismi */
+.links-section a {
+  color: #555;
+  text-decoration: none;
+}
+
+/* Binafsha rangdagi qism */
+.subscribe-section {
+  width: 100%;
+  max-width: 1280px;
+  display: flex;
+  height: 333px;
+  background-color: #666dff;
+  color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+  margin-top: 40px;
+  gap: 122px;
+  background-image: url("../image/Shapes.svg"),
+    url("../image/background.img.svg");
+  background-repeat: no-repeat;
+  background-position: right, left 0 top 0;
+}
+
+.subscribe-title {
+  width: 100%;
+  max-width: 488px;
+  text-align: start;
+  height: 108px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+  margin-bottom: 96px;
+  margin-top: 129px;
+  margin-left: 96px;
+  line-height: 54px;
+}
+
+.subscribe-form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.subscribe-input {
+  width: 454px;
+  height: 64px;
+  border: none;
+  border-radius: 0;
+  margin-top: 141px;
+}
+
+.subscribe-input::placeholder {
+  color: #ccc;
+  margin-left: 29px;
+  margin-right: 29px;
+}
+
+/* Footer pastki qismi */
 .footer-bottom {
+  width: 100%;
+
+  height: 80px;
+  background-color: antiquewhite;
   display: flex;
   justify-content: space-between;
-  margin-top: 30px;
-  align-items: center;
-  border-top: 1px solid #ccc;
-  padding-top: 20px;
+
+  padding-top: 30px;
+
+  margin-top: 20px;
 }
 
-.social-icons a {
-  margin-right: 10px;
-  text-decoration: none;
+.social-icons-a {
+  margin-left: 160px;
+  margin-bottom: 27.7px;
+  color: #000;
+}
+.social-icons a:hover {
+  color: #555;
+}
+
+.finsweet-text {
+  width: 100%;
+  max-width: 122px;
+  height: 24px;
+  margin-left: 322px;
+
+  font-size: 16px;
 }
